@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="453px" height="171px" viewBox="0 0 453 171" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SVGViewer 2</title>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SVGViewer-2" transform="translate(-0, 0)" fill-rule="nonzero">
+            <g id="编组" transform="translate(0, 0)">
+                <g>
+                    <rect id="矩形" fill-opacity="0" fill="#333333" x="0" y="0" width="51.2269645" height="72.5252354"></rect>
+                    <g id="路径" opacity="0.8">
+                        <polygon fill="#8A6BBC" points="0 171 47.06402 171 74.8557317 0 27.805086 0"></polygon>
+                        <polygon fill="#00B8CE" points="0 171 113.774828 171 120.78294 127.847485 7.02148636 127.847485"></polygon>
+                    </g>
+                </g>
+                <g transform="translate(139.227, 0)">
+                    <rect id="矩形" fill-opacity="0" fill="#333333" x="0" y="0" width="73.9900959" height="72.5252354"></rect>
+                    <g opacity="0.8">
+                        <polygon id="路径" fill="#FFA816" points="11.2477524 65.2146917 0 134.418271 27.5643493 171 91.2926969 171"></polygon>
+                        <path d="M81.7301012,116.199932 L167.432358,116.199932 L174.453844,73.0619221 L88.7515876,73.0619221 L81.7301012,116.199932 Z M170.428192,0 L55.4496808,0 L15.808375,36.349648 L14.6983114,43.1525151 L163.406705,43.1525151 L170.428192,0 Z" id="形状" fill="#8A6BBC"></path>
+                        <polygon id="路径" fill="#00B8CE" points="55.4496808 0 15.808375 36.349648 4.57399683 105.466197 119.258274 0"></polygon>
+                        <polygon id="路径" fill="#FF4B4C" points="125.009206 171 164.463272 134.418271 174.44047 73.0619221 167.231744 73.0619221 61.2808581 171"></polygon>
+                    </g>
+                </g>
+                <g transform="translate(332.2171, 0)">
+                    <rect id="矩形" fill-opacity="0" fill="#333333" x="0" y="0" width="51.2269645" height="72.5252354"></rect>
+                    <g id="路径" opacity="0.8">
+                        <polygon fill="#8A6BBC" points="0 171 47.06402 171 74.8557317 0 27.805086 0"></polygon>
+                        <polygon fill="#00B8CE" points="0 171 113.774828 171 120.78294 127.847485 7.02148636 127.847485"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
