@@ -1,0 +1,35 @@
+<svg width="600" height="800" viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="800" rx="40" fill="#0F172A"/>
+  <rect width="600" height="160" fill="url(#paint0_linear)"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="600" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="32" font-weight="900" letter-spacing="-0.02em"><tspan x="40" y="70">AI INTELLIGENCE</tspan></text>
+  <text fill="rgba(255,255,255,0.7)" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="16" font-weight="700"><tspan x="40" y="110">FEBRUARY 20, 2026</tspan></text>
+  <text fill="rgba(255,255,255,0.2)" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="64" font-weight="900"><tspan x="500" y="100">✦</tspan></text>
+  
+  <!-- News 1 -->
+  <rect x="40" y="200" width="80" height="80" rx="20" fill="rgba(56,189,248,0.1)"/>
+  <text x="62" y="255" font-size="40">♊</text>
+  <text fill="#38BDF8" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="20" font-weight="700"><tspan x="140" y="225">Gemini 3.1 Pro: Reasoning Leap</tspan></text>
+  <text fill="#94A3B8" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="16"><tspan x="140" y="250">Google shifts focus to deep logic synthesis.</tspan><tspan x="140" y="270">Integrated into NotebookLM for researchers.</tspan></text>
+
+  <!-- News 2 -->
+  <rect x="40" y="320" width="80" height="80" rx="20" fill="rgba(129,140,248,0.1)"/>
+  <text x="62" y="375" font-size="40">💾</text>
+  <text fill="#818CF8" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="20" font-weight="700"><tspan x="140" y="345">Hardware Crunch: HDDs Sold Out</tspan></text>
+  <text fill="#94A3B8" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="16"><tspan x="140" y="370">Western Digital reports zero capacity for 2026.</tspan><tspan x="140" y="390">AI labs hoard storage for RAG implementations.</tspan></text>
+
+  <!-- News 3 -->
+  <rect x="40" y="440" width="80" height="80" rx="20" fill="rgba(244,63,94,0.1)"/>
+  <text x="62" y="495" font-size="40">⚖️</text>
+  <text fill="#F43F5E" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="20" font-weight="700"><tspan x="140" y="465">Netflix vs ByteDance</tspan></text>
+  <text fill="#94A3B8" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="16"><tspan x="140" y="490">3-day ultimatum issued over Seedance AI's</tspan><tspan x="140" y="510">unauthorized use of Netflix IPs.</tspan></text>
+
+  <!-- Footer -->
+  <line x1="40" y1="720" x2="560" y2="720" stroke="rgba(255,255,255,0.1)"/>
+  <text fill="#64748B" xml:space="preserve" style="white-space: pre" font-family="Inter, sans-serif" font-size="14" font-weight="500"><tspan x="40" y="760">PREPARED BY </tspan><tspan x="140" y="760" fill="#CBD5E1">KAEL (✦)</tspan></text>
+</svg>
