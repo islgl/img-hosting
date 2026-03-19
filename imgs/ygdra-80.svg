@@ -1,0 +1,39 @@
+<svg width="80" height="80" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .halo     { animation: pulseHalo 3.5s ease-in-out infinite; }
+  .core-dot { animation: pulseCore 3s ease-in-out infinite; }
+  .leaf     { animation: pulseLeaf 4s ease-in-out infinite; }
+  .leaf-d   { animation: pulseLeaf 4s ease-in-out infinite 1.3s; }
+  @keyframes pulseCore  { 0%,100%{opacity:0.7} 50%{opacity:1} }
+  @keyframes pulseHalo  { 0%,100%{opacity:0.15} 50%{opacity:0.35} }
+  @keyframes pulseLeaf  { 0%,100%{opacity:0.6} 50%{opacity:1} }
+</style>
+<defs>
+  <clipPath id="cc3"><circle cx="160" cy="160" r="153"/></clipPath>
+  <radialGradient id="bg6" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#0e1c30"/><stop offset="100%" stop-color="#050c18"/>
+  </radialGradient>
+  <filter id="g6"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<circle cx="160" cy="160" r="156" fill="url(#bg6)"/>
+<g clip-path="url(#cc3)">
+  <path d="M146 222 C118 250 82 272 48 290" stroke="#3070a8" stroke-width="3" stroke-linecap="round" opacity="0.65" filter="url(#g6)"/>
+  <path d="M174 222 C202 250 238 272 272 290" stroke="#3070a8" stroke-width="3" stroke-linecap="round" opacity="0.65" filter="url(#g6)"/>
+  <line x1="160" y1="215" x2="160" y2="313" stroke="#3878b0" stroke-width="3.5" stroke-linecap="round" opacity="0.7" filter="url(#g6)"/>
+  <line x1="160" y1="215" x2="160" y2="100" stroke="#88d0f8" stroke-width="7" stroke-linecap="round" opacity="0.4"/>
+  <line x1="160" y1="215" x2="160" y2="100" stroke="#b0e0ff" stroke-width="2.5" stroke-linecap="round" opacity="0.9" filter="url(#g6)"/>
+  <path d="M154 143 C126 122 90 104 56 92"  stroke="#60b8e0" stroke-width="3.5" stroke-linecap="round" opacity="0.8" filter="url(#g6)"/>
+  <path d="M166 143 C194 122 230 104 264 92" stroke="#60b8e0" stroke-width="3.5" stroke-linecap="round" opacity="0.8" filter="url(#g6)"/>
+  <path d="M157 118 C134 90 104 64 74 44"  stroke="#4898c8" stroke-width="2.5" stroke-linecap="round" opacity="0.7" filter="url(#g6)"/>
+  <path d="M163 118 C186 90 216 64 246 44" stroke="#4898c8" stroke-width="2.5" stroke-linecap="round" opacity="0.7" filter="url(#g6)"/>
+  <circle cx="56"  cy="92"  r="6"  fill="#70c8f0" filter="url(#g6)" class="leaf"/>
+  <circle cx="264" cy="92"  r="6"  fill="#70c8f0" filter="url(#g6)" class="leaf"/>
+  <circle cx="74"  cy="44"  r="5"  fill="#60b8e8" filter="url(#g6)" class="leaf-d"/>
+  <circle cx="246" cy="44"  r="5"  fill="#60b8e8" filter="url(#g6)" class="leaf-d"/>
+  <circle cx="160" cy="20"  r="8"  fill="#b8e8ff" filter="url(#g6)" class="leaf"/>
+  <circle cx="160" cy="165" r="34" fill="#50a8d0" fill-opacity="0.12" class="halo"/>
+  <circle cx="160" cy="165" r="20" fill="#081828" stroke="#6abce8" stroke-width="2" filter="url(#g6)"/>
+  <circle cx="160" cy="165" r="9"  fill="#c8eeff" filter="url(#g6)" class="core-dot"/>
+</g>
+<circle cx="160" cy="160" r="154" stroke="#1e4070" stroke-width="1" fill="none"/>
+</svg>
