@@ -1,0 +1,52 @@
+<svg width="160" height="160" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .halo     { animation: pulseHalo 3.5s ease-in-out infinite; }
+  .core-dot { animation: pulseCore 3s ease-in-out infinite; }
+  .leaf     { animation: pulseLeaf 4s ease-in-out infinite; }
+  .leaf-d   { animation: pulseLeaf 4s ease-in-out infinite 1.3s; }
+  .leaf-d2  { animation: pulseLeaf 4s ease-in-out infinite 2.6s; }
+  .root-glow{ animation: pulseRoot 4s ease-in-out infinite; }
+  @keyframes pulseCore  { 0%,100%{opacity:0.7} 50%{opacity:1} }
+  @keyframes pulseHalo  { 0%,100%{opacity:0.15} 50%{opacity:0.35} }
+  @keyframes pulseLeaf  { 0%,100%{opacity:0.6} 50%{opacity:1} }
+  @keyframes pulseRoot  { 0%,100%{opacity:0.35} 50%{opacity:0.65} }
+</style>
+<defs>
+  <clipPath id="cc2"><circle cx="160" cy="160" r="153"/></clipPath>
+  <radialGradient id="bg5" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#0e1c30"/><stop offset="100%" stop-color="#050c18"/>
+  </radialGradient>
+  <radialGradient id="cG5" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#c8eeff"/><stop offset="100%" stop-color="#1a4878" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="tH5" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#2060a0" stop-opacity="0.5"/>
+    <stop offset="50%" stop-color="#88d0f8"/>
+    <stop offset="100%" stop-color="#2060a0" stop-opacity="0.5"/>
+  </linearGradient>
+  <filter id="g5"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<circle cx="160" cy="160" r="156" fill="url(#bg5)"/>
+<g clip-path="url(#cc2)">
+  <path d="M148 218 C130 240 105 262 76 282 C58 294 38 302 18 308" stroke="#3070a8" stroke-width="2.5" stroke-linecap="round" opacity="0.65" filter="url(#g5)"/>
+  <path d="M172 218 C190 240 215 262 244 282 C262 294 282 302 302 308" stroke="#3070a8" stroke-width="2.5" stroke-linecap="round" opacity="0.65" filter="url(#g5)"/>
+  <line x1="160" y1="210" x2="160" y2="313" stroke="#3878b0" stroke-width="3" stroke-linecap="round" opacity="0.7" filter="url(#g5)"/>
+  <line x1="152" y1="213" x2="152" y2="108" stroke="#3a80b8" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="168" y1="213" x2="168" y2="108" stroke="#3a80b8" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="160" y1="213" x2="160" y2="106" stroke="url(#tH5)" stroke-width="2.5" stroke-linecap="round" filter="url(#g5)"/>
+  <path d="M155 148 C132 130 100 112 66 100" stroke="#60b8e0" stroke-width="3" stroke-linecap="round" opacity="0.8" filter="url(#g5)"/>
+  <path d="M165 148 C188 130 220 112 254 100" stroke="#60b8e0" stroke-width="3" stroke-linecap="round" opacity="0.8" filter="url(#g5)"/>
+  <path d="M157 125 C138 104 112 82 80 64" stroke="#4898c8" stroke-width="2.2" stroke-linecap="round" opacity="0.75" filter="url(#g5)"/>
+  <path d="M163 125 C182 104 208 82 240 64" stroke="#4898c8" stroke-width="2.2" stroke-linecap="round" opacity="0.75" filter="url(#g5)"/>
+  <line x1="160" y1="110" x2="160" y2="16" stroke="#90d0f8" stroke-width="2.2" stroke-linecap="round" opacity="0.85" filter="url(#g5)"/>
+  <circle cx="66"  cy="100" r="4.5" fill="#70c8f0" filter="url(#g5)" class="leaf"/>
+  <circle cx="254" cy="100" r="4.5" fill="#70c8f0" filter="url(#g5)" class="leaf"/>
+  <circle cx="80"  cy="64"  r="3.5" fill="#60b8e8" filter="url(#g5)" class="leaf-d"/>
+  <circle cx="240" cy="64"  r="3.5" fill="#60b8e8" filter="url(#g5)" class="leaf-d"/>
+  <circle cx="160" cy="18"  r="6"   fill="#b8e8ff" filter="url(#g5)" class="leaf"/>
+  <circle cx="160" cy="160" r="28"  fill="url(#cG5)" opacity="0.25" class="halo"/>
+  <circle cx="160" cy="160" r="16"  fill="#0a1e38" stroke="#6abce8" stroke-width="1.5" filter="url(#g5)"/>
+  <circle cx="160" cy="160" r="7"   fill="#c8eeff" filter="url(#g5)" class="core-dot"/>
+</g>
+<circle cx="160" cy="160" r="154" stroke="#1e4070" stroke-width="1" fill="none"/>
+</svg>
